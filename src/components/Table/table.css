@@ -1,0 +1,45 @@
+/*.tableHeader {*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.tableHeaderDown {*/
+/*    cursor: pointer;*/
+/*    background: red;*/
+/*}*/
+
+/*.tableHeaderUp {*/
+/*    cursor: pointer;*/
+/*    background: green;*/
+/*}*/
+
+.headerTableButton {
+    position: relative;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background: red;*/
+}
+
+.up {
+    background: #a0a5a9;
+    color: whitesmoke;
+}
+
+.up::after {
+    content: '\21E7';
+    position: absolute;
+    right: 10px;
+}
+
+.down {
+    background: #a0a5a9;
+    color: whitesmoke;
+}
+
+.down::after {
+    content: '\21E9';
+    position: absolute;
+    right: 10px;
+}
